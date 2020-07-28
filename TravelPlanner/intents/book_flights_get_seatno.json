@@ -1,0 +1,90 @@
+{
+  "id": "92704677-4003-4136-bbc2-e6fb11f56725",
+  "name": "book_flights_get_seatno",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "BookFlight-Seat",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "62b5824f-bac1-4759-9902-f92b974bf597",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#session_vars.geo-city",
+          "isList": false
+        },
+        {
+          "id": "19964a60-08a0-4331-95da-d652329f9396",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#session_vars.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "da276c50-c445-42fa-ad34-53c66cbf4d83",
+          "required": false,
+          "dataType": "@travel_class",
+          "name": "travel_class",
+          "value": "$travel_class",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#session_vars.travel_class",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Awesome, please select your seat for flight from $geo-city to $geo-city1 for $travel_class ?\n\nA | 1 2 3 4 5 6\nB | 1 2 3 4 5 6\nC | 1 2 3 4 5 6",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Hello"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "flight_seat_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

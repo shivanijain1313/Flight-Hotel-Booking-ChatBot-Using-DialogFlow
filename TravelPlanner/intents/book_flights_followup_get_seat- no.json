@@ -1,0 +1,42 @@
+{
+  "id": "a02e5676-cbd1-4294-864e-5c5d9fd32758",
+  "parentId": "59b287df-5a46-4fe5-92ec-f40e3a26b971",
+  "rootParentId": "7870b960-aabb-404d-a9ac-f46057f12657",
+  "name": "book_flights_followup_get_seat- no",
+  "auto": true,
+  "contexts": [
+    "BookFlights-FollowUpGetSeat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights-GetTravelClass.BookFlights-GetTravelClass-custom.BookFlights-FollowUpGetSeat-no",
+      "affectedContexts": [
+        {
+          "name": "BookFlight-Seat",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "54cb2c7a-052b-468e-a292-e965987450f3",
+  "name": "book_flights_followup_room_book",
+  "auto": true,
+  "contexts": [
+    "BookFlights-RoomBook"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights.BookFlights-custom",
+      "affectedContexts": [
+        {
+          "name": "BookFlights-RoomBookFollowUp-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c9d40486-6215-46a6-ba6f-af35c968ce64",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#session_vars.date",
+          "isList": false
+        },
+        {
+          "id": "46718f2e-9c19-40fa-b307-cbb2eafb3e1d",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#session_vars.geo-city1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Do you want to book room for $geo-city ?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Session Vards"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

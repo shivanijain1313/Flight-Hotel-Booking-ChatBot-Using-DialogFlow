@@ -1,0 +1,65 @@
+{
+  "id": "59b287df-5a46-4fe5-92ec-f40e3a26b971",
+  "parentId": "7870b960-aabb-404d-a9ac-f46057f12657",
+  "rootParentId": "7870b960-aabb-404d-a9ac-f46057f12657",
+  "name": "book_flights_followup_get_seat",
+  "auto": true,
+  "contexts": [
+    "BookFlight-TravelClass",
+    "BookFlights-GetTravelClass-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights-GetTravelClass.BookFlights-GetTravelClass-custom",
+      "affectedContexts": [
+        {
+          "name": "BookFlights-FollowUpGetSeat-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7e68aaa3-b15c-4502-b6d3-2a54e80f1585",
+          "required": false,
+          "dataType": "@travel_class",
+          "name": "travel_class",
+          "value": "$travel_class",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Do you want to select seat ?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

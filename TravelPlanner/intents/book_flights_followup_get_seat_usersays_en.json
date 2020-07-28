@@ -1,0 +1,30 @@
+[
+  {
+    "id": "4bac16b2-61c5-4716-9949-16d1adf8ef35",
+    "data": [
+      {
+        "text": "Economy",
+        "alias": "travel_class",
+        "meta": "@travel_class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b0f11c66-033f-4afb-9036-5e8d104a098c",
+    "data": [
+      {
+        "text": "Business",
+        "alias": "travel_class",
+        "meta": "@travel_class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

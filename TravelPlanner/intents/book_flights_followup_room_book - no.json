@@ -1,0 +1,36 @@
+{
+  "id": "364c4daf-2437-4183-bb7d-7c340ead16bd",
+  "parentId": "54cb2c7a-052b-468e-a292-e965987450f3",
+  "rootParentId": "54cb2c7a-052b-468e-a292-e965987450f3",
+  "name": "book_flights_followup_room_book - no",
+  "auto": true,
+  "contexts": [
+    "BookFlights-RoomBookFollowUp-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights-RoomBookFollowUp.BookFlights-RoomBookFollowUp-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

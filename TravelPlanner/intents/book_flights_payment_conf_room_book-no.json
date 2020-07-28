@@ -1,0 +1,42 @@
+{
+  "id": "023cea4c-121d-495a-a806-2da5116dc0e2",
+  "parentId": "19af06f8-1743-4cf6-986e-edd44b02c1ee",
+  "rootParentId": "19af06f8-1743-4cf6-986e-edd44b02c1ee",
+  "name": "book_flights_payment_conf_room_book-no",
+  "auto": true,
+  "contexts": [
+    "BookFlights-PaymentConfirmation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights-PaymentConfirmation.BookFlights-PaymentConfirmation-no",
+      "affectedContexts": [
+        {
+          "name": "BookFlights-RoomBook",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

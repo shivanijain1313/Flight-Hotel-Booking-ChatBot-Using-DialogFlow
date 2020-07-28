@@ -1,0 +1,88 @@
+{
+  "id": "6cd11416-8e8c-4e97-b7e1-a7db2ea2aa8d",
+  "name": "book_rooms_confirmation",
+  "auto": true,
+  "contexts": [
+    "bookrooms_hotel_name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookRooms.BookRooms-custom.BookRooms-followUpDate-custom.BookRooms-followUpHotel-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3fe06499-dba7-4cde-804f-ee0b195d6723",
+          "required": true,
+          "dataType": "@hotel_name",
+          "name": "hotel_name",
+          "value": "$hotel_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4975e22e-e529-4953-b750-a82219c34bf0",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#session_vars.date",
+          "isList": false
+        },
+        {
+          "id": "d325f3e4-a91d-48eb-b559-fa6260a77290",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#session_vars.geo-city1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "$hotel_name booked for $geo-city for $date",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "5c58e103-c2dc-45cb-8df4-cf3d380cf523",
+    "data": [
+      {
+        "text": "Hotel room booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c21b1bc-123e-410f-acf4-b798e0470567",
+    "data": [
+      {
+        "text": "Book a hotel room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c9ce310-79bf-4208-9a61-0b3e7c31c5e7",
+    "data": [
+      {
+        "text": "Book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "33fb5d1c-148c-4026-b7b2-8088fa38571a",
+    "data": [
+      {
+        "text": "Book  a hotel room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d131163a-a646-4f03-a83b-bc8796e43099",
+    "data": [
+      {
+        "text": "I want to book a hotel room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6134e6d7-2e9b-4f0f-9661-aa5e0c442ebe",
+    "data": [
+      {
+        "text": "Book a room for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

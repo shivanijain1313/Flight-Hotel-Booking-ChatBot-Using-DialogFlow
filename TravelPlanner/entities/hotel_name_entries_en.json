@@ -1,0 +1,20 @@
+[
+  {
+    "value": "HotelA",
+    "synonyms": [
+      "HotelA"
+    ]
+  },
+  {
+    "value": "HotelB",
+    "synonyms": [
+      "Hotel B"
+    ]
+  },
+  {
+    "value": "HotelC",
+    "synonyms": [
+      "HotelC"
+    ]
+  }
+]

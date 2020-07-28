@@ -1,0 +1,9 @@
+{
+  "id": "9ee228de-58df-4676-aafb-e7bb2c0ae1ad",
+  "name": "flight_seat",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": true,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

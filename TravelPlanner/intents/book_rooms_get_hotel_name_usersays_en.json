@@ -1,0 +1,44 @@
+[
+  {
+    "id": "df7d48af-092e-4ba0-9c42-ece089d00af0",
+    "data": [
+      {
+        "text": "13th June, 2020",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cdb463e4-d265-4e78-8918-39774b64ba81",
+    "data": [
+      {
+        "text": "Today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "df3a0478-ac35-45b8-883e-09a2d53f974f",
+    "data": [
+      {
+        "text": "Tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

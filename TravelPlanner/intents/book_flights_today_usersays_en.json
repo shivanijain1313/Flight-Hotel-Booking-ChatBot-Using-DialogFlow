@@ -1,0 +1,27 @@
+[
+  {
+    "id": "a8faa62d-88b0-4eaa-88fa-a1ebfce41bce",
+    "data": [
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "b0dfb8de-8318-4360-a05f-29e8e9275749",
+    "data": [
+      {
+        "text": "Today",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

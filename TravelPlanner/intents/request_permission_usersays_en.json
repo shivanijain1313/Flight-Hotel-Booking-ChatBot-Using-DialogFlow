@@ -1,0 +1,38 @@
+[
+  {
+    "id": "38731141-d6fb-4c0b-8b0e-06a53072883f",
+    "data": [
+      {
+        "text": "Detect location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed2a6cff-a9f5-437b-ade4-b3735e8a72d2",
+    "data": [
+      {
+        "text": "find my position",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63026b51-5919-4414-a3d8-c9a7b268471c",
+    "data": [
+      {
+        "text": "locate me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

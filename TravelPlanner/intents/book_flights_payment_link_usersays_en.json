@@ -1,0 +1,44 @@
+[
+  {
+    "id": "3f2bd16c-7477-49b0-af33-1d1df47b6d95",
+    "data": [
+      {
+        "text": "C3",
+        "alias": "flight_seat",
+        "meta": "@flight_seat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "335b740b-f37b-4cd4-a1ec-0e66c0d74a84",
+    "data": [
+      {
+        "text": "B1",
+        "alias": "flight_seat",
+        "meta": "@flight_seat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "62103f49-e211-42b6-914b-34784098ca28",
+    "data": [
+      {
+        "text": "A1",
+        "alias": "flight_seat",
+        "meta": "@flight_seat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

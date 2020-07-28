@@ -1,0 +1,56 @@
+[
+  {
+    "id": "867962bf-3b42-4675-b7ec-fbe617defbf3",
+    "data": [
+      {
+        "text": "Book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32c4c738-fcb0-4a60-b050-75eeb2d1930e",
+    "data": [
+      {
+        "text": "Please book a room as well",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "71c3975a-f662-417e-b909-be4873935319",
+    "data": [
+      {
+        "text": "I want to book a hotel room in ",
+        "userDefined": false
+      },
+      {
+        "text": "delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c5c10287-33d5-4bf6-a9d1-a8a278dbf4be",
+    "data": [
+      {
+        "text": "Book a hotel room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

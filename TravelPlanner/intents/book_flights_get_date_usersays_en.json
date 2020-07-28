@@ -1,0 +1,16 @@
+[
+  {
+    "id": "00f1507c-aebd-4cb0-b7c2-0fa26167957d",
+    "data": [
+      {
+        "text": "Banglore",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

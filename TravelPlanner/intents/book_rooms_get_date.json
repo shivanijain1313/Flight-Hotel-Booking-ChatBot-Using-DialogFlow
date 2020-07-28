@@ -1,0 +1,76 @@
+{
+  "id": "93fb94a1-0737-4cc3-85a9-efa921844b0e",
+  "name": "book_rooms_get_date",
+  "auto": true,
+  "contexts": [
+    "bookrooms_location_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookRooms.BookRooms-custom",
+      "affectedContexts": [
+        {
+          "name": "bookrooms_date_context",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0f20df5b-299d-40dc-88bf-e0391f07ce7f",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "For when you want to book Room ?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Today"
+            },
+            {
+              "title": "Tomorrow"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

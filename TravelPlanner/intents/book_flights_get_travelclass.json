@@ -1,0 +1,91 @@
+{
+  "id": "7870b960-aabb-404d-a9ac-f46057f12657",
+  "name": "book_flights_get_travelclass",
+  "auto": true,
+  "contexts": [
+    "BookFlights-Date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "BookFlight-TravelClass",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "BookFlights-GetTravelClass-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "BookFlight-NotToday-Option",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "715ea87d-c3ed-4391-b9a3-ecc2ac7d11ed",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Which class do you want travel ?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Economy"
+            },
+            {
+              "title": "Business"
+            },
+            {
+              "title": "Change destination"
+            },
+            {
+              "title": "Start Over"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

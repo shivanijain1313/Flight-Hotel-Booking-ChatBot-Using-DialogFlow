@@ -1,0 +1,9 @@
+{
+  "id": "6ce00530-416d-480b-b03f-63d742925797",
+  "name": "travel_class",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

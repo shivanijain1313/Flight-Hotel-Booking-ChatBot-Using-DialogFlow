@@ -1,0 +1,101 @@
+{
+  "id": "b6aabbe0-12c5-4191-97b8-5ae193a93ab1",
+  "name": "book_flights_get_date",
+  "auto": true,
+  "contexts": [
+    "flight_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "slotFillingFlight",
+      "affectedContexts": [
+        {
+          "name": "BookFlights-Date",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "session_vars",
+          "parameters": {},
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1af02030-2dc8-4836-ac52-a34bc208dcaf",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "d8f9209a-88ed-4a93-a61c-ebf36607baf1",
+          "required": false,
+          "dataType": "",
+          "name": "geo-city",
+          "value": "#flight_context.geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "For when you want to book flight ?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Today"
+            },
+            {
+              "title": "Tomorrow"
+            },
+            {
+              "title": "Friday"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "flight_date_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
