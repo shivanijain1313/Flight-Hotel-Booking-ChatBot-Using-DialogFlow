@@ -40,13 +40,13 @@ For basic understanding of dialogflow, click [here](https://cloud.google.com/dia
 - ### Agent Setup
 
 1. Create New Agent  **Travel Planner**.
-
-![image](https://user-images.githubusercontent.com/28806048/88535841-50239580-d028-11ea-955c-fdb8339e7d28.png)
+![image](https://user-images.githubusercontent.com/28806048/88757457-ba9d1880-d183-11ea-99bd-f3bc9f2299dd.png)
 
 2. Go to the Dialogflow console and click the ⚙icon next to your Dialogflow agent name.
 
 3. Click to Export and Import tab in the settings of your Dialogflow agent and click IMPORT FROM ZIP.
-![image](https://user-images.githubusercontent.com/28806048/88536039-b1e3ff80-d028-11ea-8a09-61bcde3668d9.png)
+![image](https://user-images.githubusercontent.com/28806048/88756866-588fe380-d182-11ea-9af1-1351ddc6a07f.png)
+
 
 4. Drag the  TravelPlanner.zip  file into the box and type the word IMPORT to complete the import.
 ![image](https://user-images.githubusercontent.com/28806048/88536120-d8099f80-d028-11ea-839d-3e70f8406ab2.png)
@@ -57,12 +57,12 @@ For basic understanding of dialogflow, click [here](https://cloud.google.com/dia
 - ###  Fulfillment Code Setup
 
 1. Go to Fulfillment Tab and enable Inline Editor.
-![image](https://user-images.githubusercontent.com/28806048/88536414-64b45d80-d029-11ea-9327-6da1b2ecb138.png)
+![image](https://user-images.githubusercontent.com/28806048/88757165-10bd8c00-d183-11ea-9758-5aa932d57141.png)
 
 2. Update index.js and package.json as per committed file.
 
 3. Once done, click Deploy.
-![image](https://user-images.githubusercontent.com/28806048/88536606-bfe65000-d029-11ea-98ce-0e8951c9ce6b.png)
+![image](https://user-images.githubusercontent.com/28806048/88757283-45314800-d183-11ea-92fc-8a6fab86764a.png)
 
 <a name="test"></a>
 ## Bot Testing
