@@ -21,13 +21,6 @@ TravelPlanner chatbot allows a user to book flights from an origin to destinatio
 5) Change destination and change date option is also available.
 6) Users can opt for hotel booking from the displayed hotel list.
 
-**Flowchart:**
-
-Below is the flowchart reflecting all the covered scenarios:
-
-![image](https://user-images.githubusercontent.com/28806048/88623979-c3c6b080-d0c3-11ea-93fd-288c35986e5a.png)
-
-
 <a name="overview"></a>
 ## DialogFlow Overview
 
